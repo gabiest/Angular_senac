@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "appaula05"
+    }
+  },
+  "defaultProject": "appaula05",
+  "cli": {
+    "analytics": "152555f6-d85d-473a-a468-acd083b0e768"
+  }
 }
