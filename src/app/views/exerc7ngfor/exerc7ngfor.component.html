@@ -1,0 +1,40 @@
+<h2>Exercício 07</h2>
+
+<ul>
+    <li>
+      Eu fico louco
+    </li>
+    <li>
+      Canal Nostalgia
+    </li>
+    <li>
+        Luba TV
+    </li>
+    <li>
+        Orochinho
+    </li>
+</ul>
+
+<input type="text" [(ngModel)]="canal">
+
+<div [ngSwitch]="canal">
+    <div *ngSwitchCase="'eu fico louco'">
+        <h3>Eu fico louco</h3>
+        <a href="https://www.youtube.com/user/euficoloko" target="_blank">Ver</a>
+    </div>
+    <div *ngSwitchCase="'canal nostalgia'">
+        <h3>Canal Nostalgia</h3>
+        <a href="https://www.youtube.com/user/fecastanhari" target="_blank">Ver</a>
+    </div>
+    <div *ngSwitchCase="'luba tv'">
+        <h3>Luba TV</h3>
+        <a href="https://www.youtube.com/channel/UCYALxwppPJjYyTMEwwEcNCQ" target="_blank">Ver</a>
+    </div>
+    <div *ngSwitchCase="'orochinho'">
+        <h3>Orochinho</h3>
+        <a href="https://www.youtube.com/channel/UC-eqG9dW9ydhDGs_t67URMg" target="_blank">Ver</a>
+    </div>
+    <div *ngSwitchDefault>
+        <h3>Canal não encontrado</h3>
+    </div>
+</div>

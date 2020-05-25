@@ -1,0 +1,15 @@
+<h2>Exercicio 4</h2>
+
+
+<input type="number" [(ngModel)]="n1">
+<input type="number" [(ngModel)]="n2">
+
+<div *ngIf="n1 && n2">
+    <button (click)="calcular('soma');">+</button>
+    <button (click)="calcular('subt');">-</button>
+    <button (click)="calcular('mult');">*</button>
+    <button (click)="calcular('divi');">/</button>
+
+
+    <input type="number" [(ngModel)]="result">
+</div>

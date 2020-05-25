@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "appaula06"
+    }
+  },
+  "defaultProject": "appaula06",
+  "cli": {
+    "analytics": false
+  }
 }

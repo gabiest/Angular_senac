@@ -1,0 +1,19 @@
+<h2>Exercício 03</h2>
+
+
+<select [(ngModel)]="tipodecontato">
+    <option  value="whats" >Whats</option>
+    <option value="email">Email</option>
+   </select>
+
+<div *ngIf  = "tipodecontato === 'whats'">
+  <h4>Digite seu numero</h4>
+  <input type="number">
+
+</div>
+
+<div *ngIf  = "tipodecontato === 'email'">
+  <h4>Digite seu email</h4>
+  <input type="email" name="" id="">
+
+</div>
