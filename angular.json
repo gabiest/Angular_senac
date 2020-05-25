@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "exercaula05"
+    }
+  },
+  "defaultProject": "exercaula05",
+  "cli": {
+    "analytics": false
+  }
 }
